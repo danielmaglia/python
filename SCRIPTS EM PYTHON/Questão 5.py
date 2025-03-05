@@ -1,4 +1,4 @@
-def verificar_numero(n):
+def verif_numero(n):
     if n > 0:
         return "positivo"
     elif n < 0:
@@ -7,7 +7,6 @@ def verificar_numero(n):
         return "zero"
 
 numero = float(input("Digite um número: "))
-resultado = verificar_numero(numero)
+resultado = verif_numero(numero)
 print(f"O número {numero} é {resultado}.")
 
-# Não entendi o Def
